@@ -29,6 +29,7 @@ function displayNextquestion(){
 
         newAnswer.addEventListener('click',selectAnswer)
     })
+    
 
 }
 function selectAnswer(event){
@@ -44,20 +45,9 @@ function selectAnswer(event){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 const questions = [
     {
-        question:"qua a capital do brasil",
+        question:"qual a capital do brasil",
         answers:[
             {text:"RIO DE JANEIRO",correct:"false"},
             {text:"SÃO PAULO",correct:"false"},
