@@ -26,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.question-container{
+.questions-container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -38,6 +38,7 @@ body{
     font-size: 1.3em;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 .answers-container{
     width: 100%;
@@ -56,14 +57,15 @@ body{
     height: 40px;
     border: none;
     border-radius: 6px;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: bold;
     padding: 0 32px;
     cursor: pointer;
 }
-.button:hover{
-    background-color: blueviolet;
+.answer:disabled{
+    cursor: not-allowed;
 }
+
 .hide{
     display: none;
 }
@@ -73,4 +75,36 @@ body{
 }
 .incorrect{
     background-color: red;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+}
+p span{
+    display: block;
+    margin-top: 10px;
+}
+
+
+@media(min-width:320px) and (max-width:420px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 300px;
+    }
+    .question {
+        font-size: 0.8em;
+    }
+    .button{
+        font-size: 0.6em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    p span{
+        font-size: 1em;
+        margin-top: 10px;
+    }
 }
