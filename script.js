@@ -181,6 +181,69 @@ const questions = [
             {text:"BEYOCÉ",correct:true}
         ]
     },
+    {
+        question:"EM QUE ANO O HOMEN PISOU NA LUA",
+        answers:[
+            {text:"1963",correct:false},
+            {text:"1973",correct:false},
+            {text:"1953",correct:false},
+            {text:"1969",correct:true}
+        ]
+    },
+    {
+        question:"QUANTOS ANOS TEM A CONSTITUIÇÃO DO BRASIL",
+        answers:[
+            {text:"45 ANOS",correct:false},
+            {text:"35 ANOS",correct:true},
+            {text:"65 ANOS",correct:false},
+            {text:"25 ANOS",correct:false}
+        ]
+    },
+    {
+        question:"O PRIMEIRO PRESIDENTE DO BRASIL FOI",
+        answers:[
+            {text:"JANIO QUADROS",correct:false},
+            {text:"AMILTON CRUZ",correct:false},
+            {text:"SARNEI",correct:false},
+            {text:"DEODORO FONSECA",correct:true}
+        ]
+    },
+    {
+        question:"QUANTOS ESTADOS O BRASIL TEM",
+        answers:[
+            {text:"36",correct:false},
+            {text:"46",correct:false},
+            {text:"33",correct:false},
+            {text:"26",correct:true}
+        ]
+    },
+    {
+        question:"QUAL A CAPITAL DO SERGIPE",
+        answers:[
+            {text:"ARACAJU",correct:true},
+            {text:"PARANA",correct:false},
+            {text:"PERNABUCO",correct:false},
+            {text:"RECIFE",correct:false}
+        ]
+    },
+    {
+        question:"QUAl MURALHAS JOSUÉ DERRUBOU",
+        answers:[
+            {text:"CHINA",correct:false},
+            {text:"EGITO",correct:false},
+            {text:"BERLIM",correct:false},
+            {text:"JERICÓ",correct:true}
+        ]
+    },
+    {
+        question:"QUEM FOI RESSUSCITADO POR JESUS",
+        answers:[
+            {text:"ABRÃO",correct:false},
+            {text:"IZAQUE",correct:false},
+            {text:"MALAQUIAS",correct:false},
+            {text:"LÁZARO",correct:true}
+        ]
+    },
 
        
 ]
