@@ -95,16 +95,18 @@ p span{
         width: 300px;
     }
     .question {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .button{
-        font-size: 0.6em;
+        font-size: 1em;
+        color:white;
+        padding: 0 9px;
     }
     p{
         font-size: 0.8em;
     }
     p span{
-        font-size: 1em;
+        font-size: 0.9em;
         margin-top: 10px;
     }
 }

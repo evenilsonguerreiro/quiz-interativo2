@@ -139,7 +139,7 @@ const questions = [
     {
         question:"QUEM FOI STEVE JOBS",
         answers:[
-            {text:"PREsIDENTE",correct:false},
+            {text:"PRESIDENTE",correct:false},
             {text:"ESCRITOR",correct:false},
             {text:"PROGRAMADOR",correct:true},
             {text:"CIENTISTA",correct:false}
