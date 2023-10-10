@@ -128,7 +128,7 @@ questionsContainer.innerHTML =
 
 const questions = [
     {
-        question:"qual a capital do brasil",
+        question:"QUAL A CAPITAL DO BRASIL?",
         answers:[
             {text:"RIO DE JANEIRO",correct:false},
             {text:"SÃO PAULO",correct:false},
@@ -137,7 +137,7 @@ const questions = [
         ]
     },  
     {
-        question:"QUEM FOI STEVE JOBS",
+        question:"QUEM FOI STEVE JOBS ?",
         answers:[
             {text:"PRESIDENTE",correct:false},
             {text:"ESCRITOR",correct:false},
@@ -146,7 +146,7 @@ const questions = [
         ]
     },  
     {
-        question:"QUAL NOME DA MARCA DE CARRO DE ALON MUSK?",
+        question:"QUAL NOME DA MARCA DE CARRO DE ELON MUSK?",
         answers:[
             {text:"FERRARY",correct:false},
             {text:"TOYOTA",correct:false},
@@ -200,7 +200,7 @@ const questions = [
         ]
     },
     {
-        question:"O PRIMEIRO PRESIDENTE DO BRASIL FOI",
+        question:"O PRIMEIRO PRESIDENTE DO BRASIL FOI?",
         answers:[
             {text:"JANIO QUADROS",correct:false},
             {text:"AMILTON CRUZ",correct:false},
@@ -209,7 +209,7 @@ const questions = [
         ]
     },
     {
-        question:"QUANTOS ESTADOS O BRASIL TEM",
+        question:"QUANTOS ESTADOS O BRASIL TEM ?",
         answers:[
             {text:"36",correct:false},
             {text:"46",correct:false},
@@ -218,7 +218,7 @@ const questions = [
         ]
     },
     {
-        question:"QUAL A CAPITAL DO SERGIPE",
+        question:"QUAL A CAPITAL DO SERGIPE ?",
         answers:[
             {text:"ARACAJU",correct:true},
             {text:"PARANA",correct:false},
@@ -227,7 +227,7 @@ const questions = [
         ]
     },
     {
-        question:"QUAl MURALHAS JOSUÉ DERRUBOU",
+        question:"QUAl MURALHAS JOSUÉ DERRUBOU ?",
         answers:[
             {text:"CHINA",correct:false},
             {text:"EGITO",correct:false},
@@ -236,7 +236,7 @@ const questions = [
         ]
     },
     {
-        question:"QUEM FOI RESSUSCITADO POR JESUS",
+        question:"QUEM FOI RESSUSCITADO POR JESUS ?",
         answers:[
             {text:"ABRÃO",correct:false},
             {text:"IZAQUE",correct:false},
